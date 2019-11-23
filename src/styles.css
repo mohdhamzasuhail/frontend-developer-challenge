@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+	overflow: hidden !important;
+	font-family: 'Oswald', sans-serif !important;
+	background-color: #121212 !important;
+	color: #fff !important;
+}

@@ -1,0 +1,60 @@
+.sec-navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 60px;
+	background-color: #121212;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.75);
+  text-align: center;
+  z-index: 500;
+}
+
+input {
+	width: 50%;
+	height: 40px;
+	margin-top: 10px;
+	border: 0;
+	text-align: center;
+	color: #fff;
+	transition: 0.5s;
+	background-color: #121212;
+	border-bottom: 2px solid #555;
+}
+
+input:focus, input:hover {
+	border-color: #fff;
+	outline: 0;
+	transition: 0.5s;
+}
+
+::placeholder {
+  color: #999;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #999;
+}
+
+.playlist {
+	height: 100vh;
+	padding-top: 60px;
+	border-right: 2px solid #eee;
+	overflow: auto;
+}
+
+.playlist ul {
+	list-style: none;
+	padding: 10px;
+}
+
+.playlist li {
+	cursor: pointer;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #555;
+}
+
+.video {
+	padding-top: 60px;
+}
