@@ -25,3 +25,24 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Extra
+
+Objective​ : To ​ make a simple Radio app where user can listen to already requested songs
+by other and request songs to be played by adding YouTube links
+Tech Stack:
+Frontend Framework: ​ Angular v8
+Angular Packages:
+● YoutTube Iframe Script
+● HTTP (To get video name using YouTube API)
+Features:
+● Single Page Application
+● Play YouTube videos directly by pasting their link (FIFO)
+● Song removed once it ends
+● Proper Validation of YouTube URL pasted
+● Option to remove links from playlist
+Instructions:
+1. Open terminal, change directory to project folder
+2. Type ​ npm i​ , to install all the required packages
+3. Type ​ npm start​ , to run the application
+4. Paste any YouTube video link and have fun!
